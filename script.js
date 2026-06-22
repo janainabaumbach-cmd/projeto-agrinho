@@ -1,3 +1,5 @@
-function mostraMensagem(){
-   alter("O futuro depende do equelibrio entre produção agricola e preservação ambiental!");
+function mostrarMensagem() {
+  const msg = document.getElementById("mensagem");
+
+  msg.innerHTML = "🌱 O agro sustentável é tecnologia, inovação e futuro!";
 }
