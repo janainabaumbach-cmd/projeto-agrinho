@@ -1,9 +1,3 @@
-function respostaCorreta(){
-    document.getElementById("resultado").innerHTML =
-    "✅ Correto! Energia solar é uma solução sustentável.";
-}
-
-function respostaErrada(){
-    document.getElementById("resultado").innerHTML =
-    "❌ Essa prática prejudica o meio ambiente.";
+function mostraMensagem(){
+   alter("O futuro depende do equelibrio entre produção agricola e preservação ambiental!");
 }
