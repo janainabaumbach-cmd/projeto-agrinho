@@ -1,5 +1,4 @@
 function mostrarMensagem() {
-  const msg = document.getElementById("mensagem");
-
-  msg.innerHTML = "🌱 O agro sustentável é tecnologia, inovação e futuro!";
+    document.getElementById("mensagem").innerHTML =
+        "O agro sustentável garante alimentos, preserva a natureza e fortalece o futuro!";
 }
