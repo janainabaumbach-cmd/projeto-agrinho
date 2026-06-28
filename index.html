@@ -1,50 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agro Forte e Futuro Sustentável</title>
-
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Agrinho</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="hero">
-  <h1>Agro Forte & Futuro Sustentável</h1>
-  <p>Inovação, tecnologia e respeito ao meio ambiente</p>
+<div class="container">
+    <h1>🌱 Quiz Agrinho</h1>
+    <h2>Agro é Forte, Futuro Sustentável</h2>
 
-  <button onclick="mostrarMensagem()">Saiba mais</button>
+    <div id="quiz">
+        <h3 id="pergunta"></h3>
 
-  <p id="mensagem"></p>
-</header>
+        <button class="opcao" onclick="responder(0)"></button>
+        <button class="opcao" onclick="responder(1)"></button>
+        <button class="opcao" onclick="responder(2)"></button>
+        <button class="opcao" onclick="responder(3)"></button>
+    </div>
 
-<section class="container">
-
-  <div class="card">
-    <img src="img/plantacao.jpg" alt="Plantação sustentável">
-    <h2>🌱 Agricultura Sustentável</h2>
-    <p>Produção inteligente que preserva o solo, água e biodiversidade.</p>
-  </div>
-
-  <div class="card">
-    <img src="img/drone.jpg" alt="Drone no campo">
-    <h2>🚜 Tecnologia no Campo</h2>
-    <p>Drones, sensores e IA transformando o agronegócio moderno.</p>
-  </div>
-
-  <div class="card">
-    <img src="img/campo.jpg" alt="Campo verde">
-    <h2>🌎 Futuro Verde</h2>
-    <p>O agro do futuro é forte, digital e sustentável.</p>
-  </div>
-
-</section>
-
-<footer>
-  <p>© 2026 Agro Forte - GitHub Pages</p>
-</footer>
+    <div id="resultado"></div>
+</div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
