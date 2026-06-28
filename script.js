@@ -1,4 +1,4 @@
 function mostrarMensagem() {
     document.getElementById("mensagem").innerHTML =
-        "O agro sustentável garante alimentos, preserva a natureza e fortalece o futuro!";
+    "🌱 O agro sustentável produz alimentos, gera empregos, protege o meio ambiente e garante qualidade de vida para as futuras gerações.";
 }
