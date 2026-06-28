@@ -1,93 +1,39 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f1f8f4;
-  color: #1f3d1f;
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#4CAF50,#81C784);
+    text-align:center;
+    color:white;
 }
 
-/* HERO */
-.hero {
-  background: url("img/campo.jpg") center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-  position: relative;
+.container{
+    margin:50px auto;
+    width:80%;
+    max-width:600px;
+    background:white;
+    color:black;
+    padding:20px;
+    border-radius:15px;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 50, 0, 0.6);
+.opcao{
+    display:block;
+    width:100%;
+    margin:10px 0;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#4CAF50;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
 }
 
-.hero h1,
-.hero p,
-.hero button,
-#mensagem {
-  position: relative;
-  z-index: 2;
+.opcao:hover{
+    background:#2E7D32;
 }
 
-.hero button {
-  margin-top: 15px;
-  padding: 12px 20px;
-  border: none;
-  background: #ffffff;
-  color: #1b5e20;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.hero button:hover {
-  background: #c8e6c9;
-}
-
-/* CONTAINER */
-.container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px;
-}
-
-/* CARD */
-.card {
-  background: white;
-  width: 300px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card h2 {
-  margin: 15px;
-}
-
-.card p {
-  margin: 0 15px 20px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #1b5e20;
-  color: white;
+#resultado{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
 }
