@@ -1,9 +1,104 @@
-img{
-    transition:0.6s;
-    cursor:pointer;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-img:hover,
-img.ativa{
+body{
+    font-family:Arial, sans-serif;
+    background:#f5fff5;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.banner{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    padding:40px;
+}
+
+.banner img{
+    width:500px;
+    max-width:100%;
+    border-radius:20px;
+}
+
+.texto-banner{
+    max-width:500px;
+}
+
+section h2{
+    text-align:center;
+    margin:30px 0;
+    color:#1b5e20;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.imagens{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:20px;
+}
+
+.item{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.item img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    cursor:pointer;
+    transition:0.6s;
+}
+
+.item img.ativa{
     transform:scale(1.15) rotate(3deg);
+}
+
+.item h3{
+    margin:10px;
+    color:#2e7d32;
+}
+
+.item p{
+    padding:0 10px 15px;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:30px;
 }
